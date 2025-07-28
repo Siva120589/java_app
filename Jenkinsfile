@@ -10,7 +10,7 @@ pipeline{
                 script{
                     
                     gitCheckout(
-                        branch: "main"
+                        branch: "main",
                         url: "https://github.com/Siva120589/java_app.git"
                     )
                 }
