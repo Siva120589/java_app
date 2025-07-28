@@ -7,16 +7,11 @@ pipeline{
 
         stage('Git Checkout'){
             steps{
-                script{
-                    
-                    gitCheckout(
-                        branch: "main",
-                        url: "https://github.com/Siva120589/java_app.git"
-                    )
-                }
+            gitCheckout(
+                branch: "main",
+                url: "https://github.com/Siva120589/java_app.git"
+            )
             }
         }
     }
-
-
 }
