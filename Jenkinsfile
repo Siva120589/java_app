@@ -17,7 +17,7 @@ pipeline{
         }
 
 
-        stage('Git Checkout'){
+        stage('Unit Test maven'){
             
             steps{
                 script{
