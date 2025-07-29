@@ -74,7 +74,7 @@ pipeline{
                 }
         }
 
-        stage('Integration Test maven'){
+        stage('Maven Build : maven'){
 
             when { expression { params.action == 'create'} }
             
